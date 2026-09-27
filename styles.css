@@ -47,3 +47,12 @@ button,input,textarea,select{font:inherit}button{cursor:pointer}a{color:inherit;
 @media(max-width:1200px){.topnav{gap:2px}.topnavItem{padding:8px 9px}.heroImage{height:130px}}
 @media(max-width:900px){.topnav{display:none}.heroImage{height:140px}.heroOverlay{padding:20px}.sidebarQuote{display:none}}
 @media(max-width:560px){.heroImage{height:128px}.heroOverlay h2{font-size:23px}.heroOverlay{padding:16px}.heroOverlay p{font-size:11px}.projectRow{grid-template-columns:44px minmax(0,1fr) 78px 25px}.topbar .topbrand{display:flex}}
+
+/* SRS Vision Ultimate additions */
+.stack{display:grid;gap:16px}.appCard{display:grid;grid-template-columns:42px 1fr auto;gap:10px;align-items:center;border:1px solid #19466f;background:#08192f;border-radius:13px;padding:11px}.appGlyph{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;background:linear-gradient(135deg,#1a8cff,#7b45ff);font-weight:900}.appInfo b{display:block;font-size:12px}.appInfo small{display:block;color:#7894af;font-size:10px;margin-top:2px}.appActions{display:flex;gap:6px;flex-wrap:wrap}.appActions .btn{padding:7px 9px;font-size:10px}.appActions .btn.primary{color:#fff}.backBtn{white-space:nowrap}.navitem,.toolSlot,.miniTool,.memberActions .btn,.appActions .btn,.bell,.status,.user{touch-action:manipulation}.navitem:focus-visible,.btn:focus-visible,.toolSlot:focus-visible,.miniTool:focus-visible{outline:2px solid #19d7ff;outline-offset:2px}
+@media(max-width:1200px){.appCard{grid-template-columns:38px 1fr}.appActions{grid-column:2}.backBtn{display:none}}
+@media(max-width:900px){.appCard{grid-template-columns:38px 1fr}.appActions{grid-column:2}.stack{gap:10px}.panelHead{align-items:flex-start;flex-wrap:wrap}.topactions{gap:5px}}
+
+/* Navigation sizing fix */
+.topnav .navitem{width:auto;flex:0 0 auto;display:flex;align-items:center;gap:7px}
+.topnav .navitem .icon{width:auto}

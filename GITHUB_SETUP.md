@@ -1,15 +1,11 @@
-# GitHub setup — SRS Vision Studio Platform
+# GitHub setup
 
-Repository name:
+Recommended repository name:
 
-`srs-vision-studio-platform`
+`srs-vision-first-dashboard`
 
-Upload every file in this folder to the repository root.
+Upload every file and the `assets/` directory from this folder into the repository root.
 
-For a static GitHub Pages deployment, enable Pages from the repository's Settings and choose the main branch/root as the source.
+Do not combine this build with files from earlier SRS Vision / 3FS builds.
 
-Before using Supabase realtime across devices:
-1. Run `database.sql` in the Supabase SQL Editor.
-2. Confirm Anonymous Sign-Ins are enabled.
-3. Confirm realtime is enabled for the state table used by this build.
-4. Keep only the browser-safe publishable key in `supabase-config.js`.
+Enable GitHub Pages from Settings → Pages after upload.
